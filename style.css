@@ -1,0 +1,66 @@
+html {
+    background-image: url(bck.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+
+.divM {
+    width: fit-content;
+    display: grid
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+
+.line1 {
+    font-size: 80px;
+    font-family: "Quantico", sans-serif;
+    font-style: normal;
+}
+
+.line2 {
+    font-size: 20px;
+    font-family: "Quantico", sans-serif;
+    font-style: normal;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.initiate {
+    border: 1px solid;
+    font-size: 200px;
+    font-family: "Quantico", sans-serif;
+    font-style: normal;
+    transform: scale(0.5);
+    border-radius: 50px;
+    background-color: blue;
+    box-shadow: 0 0 40px 15px violet,
+                0 0 50px 20px #02f246,
+                0 0 45px 25px blue,
+                0 0 40px 30px #02ffa4;
+    transition: transform 0.1s linear;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.initiate:hover {
+    transform: scale(0.55);
+}
