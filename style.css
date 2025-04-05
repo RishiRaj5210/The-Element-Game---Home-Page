@@ -54,6 +54,7 @@ img {
                 0 0 45px 25px blue,
                 0 0 40px 30px #02ffa4;
     transition: transform 0.1s linear;
+    color: white;
 }
 
 a:link {
