@@ -66,3 +66,8 @@ a:link {
     transform: scale(0.55);
     color: white;
 }
+
+.initiate:active {
+    transform: scale(0.5);
+    color: white;
+}
